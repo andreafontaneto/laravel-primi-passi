@@ -34,7 +34,8 @@ Route::get('/contatti', function () {
             "Marco Rossi",
             "Mario Bianchi",
             "Giuseppe Verdi"
-        ]
+        ],
+        'print' => true
     ];
 
     return view('contacts', $data);

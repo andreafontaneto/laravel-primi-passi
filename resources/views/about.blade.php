@@ -24,6 +24,8 @@
     </div>
 
     <h1>CHI SIAMO</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem placeat nesciunt officiis molestias cumque dolorum facilis, nihil nostrum voluptatibus sapiente blanditiis nulla eum. Est perspiciatis ipsam beatae magnam adipisci.Enim officia molestiae porro modi a eveniet odit velit, dolore vel, impedit blanditiis corporis rerum? Molestiae ea harum, sapiente est excepturi rerum facere possimus reprehenderit eaque facilis itaque minima tempora!</p>
     
 </body>
 </html>

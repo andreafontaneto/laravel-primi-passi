@@ -25,11 +25,15 @@
 
     <h1>CONTATTI</h1>
 
-    <ul>
-        @foreach ($contacts as $contact)
-        <li>{{ $contact }}</li>            
-        @endforeach
-    </ul>
+    @if ($print)
+        <ul>
+            @foreach ($contacts as $contact)
+            <li>{{ $contact }}</li>            
+            @endforeach
+        </ul>
+    @else
+        <p>Non ci sono contatti :(</p>
+    @endif
     
 </body>
 </html>
