@@ -24,6 +24,12 @@
     </div>
 
     <h1>CONTATTI</h1>
+
+    <ul>
+        @foreach ($contacts as $contact)
+        <li>{{ $contact }}</li>            
+        @endforeach
+    </ul>
     
 </body>
 </html>

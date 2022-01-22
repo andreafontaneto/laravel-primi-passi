@@ -28,5 +28,14 @@ Route::get('/chi-siamo', function () {
 })->name('about');
 
 Route::get('/contatti', function () {
-    return view('contacts');
+
+    $data = [
+        'contacts' => [
+            "Marco Rossi",
+            "Mario Bianchi",
+            "Giuseppe Verdi"
+        ]
+    ];
+
+    return view('contacts', $data);
 })->name('contacts');
