@@ -22,3 +22,11 @@ Route::get('/', function () {
 
     return view('home', $data);
 })->name('home');
+
+Route::get('/chi-siamo', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/contatti', function () {
+    return view('contacts');
+})->name('contacts');

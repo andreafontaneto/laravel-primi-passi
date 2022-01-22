@@ -23,10 +23,7 @@
           </ul>
     </div>
 
-
-    <h1>Hello world</h1>
-
-    <h3>{{ $saluto }} {{ $name }}!</h3>
+    <h1>CHI SIAMO</h1>
     
 </body>
 </html>
