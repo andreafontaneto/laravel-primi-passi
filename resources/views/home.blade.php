@@ -12,13 +12,13 @@
     <div class="container">
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              <a class="nav-link active" aria-current="page" href="{{ route('home') }}">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/chi-siamo">ABOUT</a>
+              <a class="nav-link" href="{{ route('about') }}">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contatti">CONTATTI</a>
+              <a class="nav-link" href="{{ route('contacts') }}">CONTATTI</a>
             </li>
           </ul>
     </div>

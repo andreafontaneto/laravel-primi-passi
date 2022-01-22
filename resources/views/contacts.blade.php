@@ -9,19 +9,19 @@
 </head>
 <body>
 
-    <div class="container">
-        <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/chi-siamo">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contatti">CONTATTI</a>
-            </li>
-          </ul>
-    </div>
+  <div class="container">
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{{ route('home') }}">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('about') }}">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('contacts') }}">CONTATTI</a>
+        </li>
+      </ul>
+</div>
 
     <h1>CONTATTI</h1>
 
